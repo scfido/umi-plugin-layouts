@@ -1,0 +1,28 @@
+{
+  "name": "umi-plugin-layouts",
+  "version": "0.0.1",
+  "description": "将Umi的Layout放到插件中示例",
+  "license": "MIT",
+  "main": "es/index.js",
+  "scripts": {
+    "build": "father build",
+    "test": "umi-test"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "core-js": "^3.2.1",
+    "father": "^2.16.0",
+    "umi-plugin-react": "^1.9.7",
+    "umi-request": "^1.0.8",
+    "umi-test": "^1.2.2"
+  },
+  "files": [
+    "es",
+    "src"
+  ],
+  "dependencies": {}
+}
